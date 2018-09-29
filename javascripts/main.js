@@ -128,6 +128,7 @@ function onScroll() {
 
 $(".menu-item").click(function(){
     $(".collapse").removeClass("in");
+    $(".collapse").collapse("hide");
 
 });
 
